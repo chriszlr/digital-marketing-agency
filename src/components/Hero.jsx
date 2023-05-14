@@ -3,7 +3,7 @@ import analysisImg from "../assets/analysis.svg";
 
 const Hero = () => {
   return (
-    <div className="max-w-[1200px] mx-auto p-4 flex flex-col md:flex-row  justify-between items-center overflow-hidden">
+    <div className="max-w-[1200px] mx-auto h-screen p-4 flex flex-col md:flex-row justify-between items-center overflow-hidden">
       <div className="">
         <div className="flex flex-col justify-between">
           <h1 className="font-light text-3xl md:text-3xl lg:text-4xl flex flex-col my-1">
@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
 
       <img
-        className="max-w-full max-h-[300px]"
+        className="max-w-[80%] max-h-[300px]"
         src={analysisImg}
         alt="Analysis Image"
       />
