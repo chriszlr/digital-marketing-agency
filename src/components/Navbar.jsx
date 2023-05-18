@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="max-w-[1440px] mx-auto flex justify-between items-center p-4">
+    <div className="max-w-[1440px] mx-auto flex justify-between items-center p-6">
       <div className="flex flex-col items-center justify-center gap-1">
         <h1 className="font-bold text-3xl">SEO LOGO</h1>
         <p className="text-sm tracking-wider">Lorem ipsum dolor sit.</p>
